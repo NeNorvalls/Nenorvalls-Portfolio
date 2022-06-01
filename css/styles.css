@@ -1,0 +1,94 @@
+body {
+    background-image: url("/image/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ######## HEADER ######## */
+span {
+    font-family: 'Fredericka', serif;
+    font-size: 48px;
+    font-weight: bold;
+    color:#FFB58B;
+    border: 50%;
+}
+
+nav li a {
+    text-decoration: none;
+    display: block;
+    color:#FFB58B;
+}
+
+
+  .navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .nav-link {
+    transition: 0.7s ease;
+  }
+  
+  .active,
+  .nav-link:hover {
+    color: #fff;
+    text-decoration: wavy;
+  }
+  
+
+  /*######## HAMBURGER ########*/
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+  }
+  
+/*######## BODY/MAIN ########*/
+
+h1,
+p {
+    font-size: 38px;
+    color:#FFB58B;
+    text-align: center;
+    font-family: 'open sans';
+}
+
+p {
+    font-size: 26px;
+}
+
+
+/* ######## img ######## */
+
+.myself {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.myself img {
+    width: 270px;
+    border-radius: 10px;
+}
