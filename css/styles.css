@@ -6,13 +6,21 @@ body {
 
 
 /* ######## HEADER ######## */
-span {
+.logo {
+  max-width: 180px;
+  max-height: 180px;
+}
+
+
+
+
+/* span {
     font-family: 'Fredericka', serif;
     font-size: 48px;
     font-weight: bold;
     color:#FFB58B;
     border: 50%;
-}
+} */
 
 nav li a {
     text-decoration: none;
@@ -65,12 +73,12 @@ nav li a {
   
 /*######## BODY/MAIN ########*/
 
-h1,
+h2,
 p {
     font-size: 38px;
-    color:#FFB58B;
     text-align: center;
     font-family: 'open sans';
+    color:#FFB58B;
 }
 
 p {
@@ -78,7 +86,7 @@ p {
 }
 
 
-/* ######## img ######## */
+/* ######## home - img ######## */
 
 .myself {
     display: flex;
@@ -92,3 +100,108 @@ p {
     width: 270px;
     border-radius: 10px;
 }
+
+/* ############ Projects ############# */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+.project-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.container {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #141414;
+}
+.container * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.container img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.85;
+}
+/* .container .date {
+  position: absolute;
+  background-color: #1e1e1e;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: 10px 25px 0;
+  text-align: right;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+} */
+/* .container .date:before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 400px 55px 0;
+  border-color: transparent #1e1e1e transparent transparent;
+} */
+.container figcaption {
+  width: 100%;
+  background-color: #141414;
+  padding: 0 25px 25px;
+  position: relative;
+}
+.container figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  border-color: transparent transparent transparent #141414;
+}
+/* .container figcaption a {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 10px 0;
+  display: inline-block;
+  opacity: 0.65;
+  width: 47%;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+} */
+/* .container figcaption a:hover {
+  opacity: 1;
+} */
+.container h2 {
+  margin: 0 0 10px;
+  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+/* .container p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  opacity: 0.8;
+} */
