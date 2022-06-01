@@ -2,6 +2,7 @@ body {
     background-image: url("/image/background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
 
 
@@ -72,6 +73,12 @@ nav li a {
   }
   
 /*######## BODY/MAIN ########*/
+h1 {
+  font-size: 46px;
+  font-weight: 500;
+  color: #FFB58B;
+  text-align: center;
+}
 
 h2,
 p {
@@ -122,6 +129,7 @@ p {
   text-align: left;
   line-height: 1.4em;
   background-color: #141414;
+  height: 380px;
 }
 .container * {
   -webkit-box-sizing: border-box;
@@ -205,3 +213,38 @@ p {
   letter-spacing: 1px;
   opacity: 0.8;
 } */
+
+
+
+/* ################### FOOTER #################### */
+footer {
+  margin-top: auto;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 150px;
+  width: 100%;
+  background-color: transparent;
+  bottom: 0;
+  margin-top: 50px;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.copy {
+  color:#FFB58B;
+}
+
+.social-media i {
+  margin-bottom: 20px;
+}
+
+.social-media,
+.copy-container {
+  text-align: center;
+}
