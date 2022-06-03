@@ -110,7 +110,6 @@ p {
 .myself img {
     width: 270px;
     border-radius: 10px;
-    box-shadow: rgba(251, 238, 228, 0.4) -5px 5px, rgba(251, 238, 228, 0.3) -10px 10px, rgba(251, 238, 228, 0.2) -15px 15px, rgba(251, 238, 228, 0.1) -20px 20px, rgba(251, 238, 228, 0.05) -25px 25px;
 }
 
 /* ############ Projects ############# */
