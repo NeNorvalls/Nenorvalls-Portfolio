@@ -1,32 +1,36 @@
 body {
-    background-image: url("/image/background.jpeg");
-    background-repeat: no-repeat;
+    /* background-image: url("/images/background.jpeg"); */
+    /* background-repeat: no-repeat; */
+    background-color: #181a18;
     background-size: cover;
     min-height: 100vh;
 }
 
 
 /* ######## HEADER ######## */
-.logo {
+/* .logo {
   max-width: 180px;
   max-height: 180px;
+} */
+
+.logo {
+  color:#fbeee4;
+  letter-spacing: 2px;
+  font-weight: 400;
+  width: 20px;
+  font-size: 38px;
 }
 
-
-
-
-/* span {
-    font-family: 'Fredericka', serif;
-    font-size: 48px;
-    font-weight: bold;
-    color:#FFB58B;
-    border: 50%;
-} */
+hr {
+  color:#fbeee4;
+  height: 3px;
+  background-color: #fbeee4;
+}
 
 nav li a {
     text-decoration: none;
     display: block;
-    color:#FFB58B;
+    color:#fbeee4;
 }
 
 
@@ -51,14 +55,14 @@ nav li a {
   
   .active,
   .nav-link:hover {
-    color: #fff;
+    color: ##fbeee4;
     text-decoration: wavy;
   }
   
 
   /*######## HAMBURGER ########*/
 
-  .hamburger {
+.hamburger {
     display: none;
     cursor: pointer;
   }
@@ -69,14 +73,14 @@ nav li a {
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background-color: #fff;
+    background-color: #fbeee4;
   }
-  
+
 /*######## BODY/MAIN ########*/
 h1 {
   font-size: 46px;
   font-weight: 500;
-  color: #FFB58B;
+  color: #fbeee4;
   text-align: center;
 }
 
@@ -85,7 +89,7 @@ p {
     font-size: 38px;
     text-align: center;
     font-family: 'open sans';
-    color:#FFB58B;
+    color:#fbeee4;
 }
 
 p {
@@ -106,6 +110,7 @@ p {
 .myself img {
     width: 270px;
     border-radius: 10px;
+    box-shadow: rgba(251, 238, 228, 0.4) -5px 5px, rgba(251, 238, 228, 0.3) -10px 10px, rgba(251, 238, 228, 0.2) -15px 15px, rgba(251, 238, 228, 0.1) -20px 20px, rgba(251, 238, 228, 0.05) -25px 25px;
 }
 
 /* ############ Projects ############# */
@@ -125,11 +130,14 @@ p {
   min-width: 230px;
   max-width: 315px;
   width: 100%;
-  color: #ffffff;
+  color: #fbeee4;
   text-align: left;
   line-height: 1.4em;
-  background-color: #141414;
+  background-color: #181a18;
   height: 380px;
+  border: 3px solid #fbeee4;
+  border-radius: 5px;
+  box-shadow: rgba(251, 238, 228, 0.4) -5px 5px, rgba(251, 238, 228, 0.3) -10px 10px, rgba(251, 238, 228, 0.2) -15px 15px, rgba(251, 238, 228, 0.1) -20px 20px, rgba(251, 238, 228, 0.05) -25px 25px;
 }
 .container * {
   -webkit-box-sizing: border-box;
@@ -142,33 +150,10 @@ p {
   vertical-align: top;
   opacity: 0.85;
 }
-/* .container .date {
-  position: absolute;
-  background-color: #1e1e1e;
-  top: 0;
-  right: 0;
-  width: 100%;
-  padding: 10px 25px 0;
-  text-align: right;
-  font-size: 0.8em;
-  letter-spacing: 1px;
-  color: rgba(255, 255, 255, 0.5);
-  text-transform: uppercase;
-} */
-/* .container .date:before {
-  position: absolute;
-  content: '';
-  top: 100%;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 400px 55px 0;
-  border-color: transparent #1e1e1e transparent transparent;
-} */
+
 .container figcaption {
   width: 100%;
-  background-color: #141414;
+  background-color: #181a18;
   padding: 0 25px 25px;
   position: relative;
 }
@@ -181,55 +166,38 @@ p {
   height: 0;
   border-style: solid;
   border-width: 55px 0 0 400px;
-  border-color: transparent transparent transparent #141414;
+  border-color: transparent transparent transparent #181a18;
 }
-/* .container figcaption a {
-  padding: 5px;
-  border: 1px solid #ffffff;
-  color: #ffffff;
-  font-size: 0.7em;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin: 10px 0;
-  display: inline-block;
-  opacity: 0.65;
-  width: 47%;
-  text-align: center;
-  font-weight: 600;
-  letter-spacing: 1px;
-} */
-/* .container figcaption a:hover {
-  opacity: 1;
-} */
+
 .container h2 {
   margin: 0 0 10px;
   font-weight: 300;
   font-size: 1.5em;
   line-height: 1.2em;
-}
-/* .container p {
-  margin: 0 0 10px;
-  font-size: 0.8em;
-  letter-spacing: 1px;
-  opacity: 0.8;
 } */
 
+
+/* ###################### ABOUT ##################### */
+.about-p {
+
+}
 
 
 /* ################### FOOTER #################### */
 footer {
   margin-top: auto;
 }
-.footer-container {
+.footer_container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 150px;
   width: 100%;
-  background-color: transparent;
+  background-color:#1f2122;
   bottom: 0;
   margin-top: 50px;
+  margin-bottom: -5rem;
 }
 
 .social-media {
@@ -237,7 +205,7 @@ footer {
 }
 
 .copy {
-  color:#FFB58B;
+  color:#fbeee4;
 }
 
 .social-media i {
@@ -247,4 +215,30 @@ footer {
 .social-media,
 .copy-container {
   text-align: center;
+} 
+
+
+
+/* ################## Paragraphs ################### */
+.intro {
+  box-shadow: rgba(251, 238, 228, 0.4) -5px 5px, rgba(251, 238, 228, 0.3) -10px 10px, rgba(251, 238, 228, 0.2) -15px 15px, rgba(251, 238, 228, 0.1) -20px 20px, rgba(251, 238, 228, 0.05) -25px 25px;
+}
+
+.intro,
+.intro-about {
+  border: 2px solid rgba(251, 238, 228, 100);
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+
+.intro-about {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+p {
+  padding: 1.5rem 1.5rem;
+  font-size: 24px;
+  letter-spacing: 2px;
 }
