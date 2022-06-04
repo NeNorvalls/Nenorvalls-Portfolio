@@ -1,95 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" rel="stylesheet" />
-    <title>Home | Portfolio</title>
-</head>
-<body>
-   <header>
-       
-       <div>
-             <!-- ################### HAMBURGER MENU #################### -->
-              
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Home | Portfolio</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+
+    <body>
+
+        <header>
+            <!-- ################### HAMBURGER MENU #################### -->     
+            <nav class="navbar">
+                <span class="logo">NeNorvalls</span>
+                    <ul class="nav-menu">
+                       <li class="nav-item">
+                           <a href="#home" class="active nav-link">Home</a>
+                       </li>
+                       <li class="nav-item">
+                      |    <a href="#about" class="nav-link">About me</a>
+                       </li>
+                       <li class="nav-item">
+                          <a href="#portfolio" class="nav-link">Portfolio</a>
+                       </li>
+                       <li class="nav-item">
+                          <a href="#contact" class="nav-link">Contact</a>
+                       </li>
+                    </ul>
+
+                    <div class="hamburger">
+                       <span class="bar"></span>
+                       <span class="bar"></span>
+                       <span class="bar"></span>
+                    </div>
+            </nav>
+        </header>
+   
+            <!-- FIXED HEADER -->
+        <header class="fixed-header">
+        <!-- ################### HAMBURGER MENU #################### -->
         <nav class="navbar">
-          <span class="logo">NeNorvalls</span>
-          <!-- <img  class="logo" src="/images/Personal-Logo.png" alt="Profile Logo" /> -->
-            <ul class="nav-menu">
-              <li class="nav-item">
-                <a class="active nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="portfolio.html" class="nav-link">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a href="about.html" class="nav-link">About me</a>
-              </li>
-              <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact</a>
-              </li>
-            </ul>
-            <div class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
-          </nav>
-    
-       </div>
-   </header>  
-
-    <hr>
-
-    <h1>
-      Hey, there
-      <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
-    </h1>
-    <div class="intro">
-        <h2>My name is Ettenytten</h2>
-        <p>My home is Bergen, Norway.</p>
-        <p>I'm an aspiring front-end developer student who loves everything about the web.
-        Enjoying my life with creativity while developing web interfaces.</p>
-        <p>Feel free to view my projects!</p>
-    </div> 
-      
-      <!-- ################### FOOTER #################### -->
-      <footer>
-        <div class="footer_container">
-          <div class="social-media">
-            <span><a href="http://facebook.com"><i class="fab fa-facebook"></i></a> <a href="http://instagram.com"><i class="fab fa-instagram"></i></a> <a href="http://youtube.com"><i class="fab fa-youtube"></i></a> <a href="http://pinterest.com"><i class="fab fa-pinterest"></i></a> <a href="http://twitter.com/"><i class="fab fa-twitter"></i></a> <a href="http://discord.com"><i class="fab fa-github"></i></a></span>
+        <span class="logo">NeNorvalls</span>
+        <!-- <img  class="logo" src="/images/Personal-Logo.png" alt="Profile Logo" /> -->
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#home" class="active nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
           </div>
-          <div class="copy-container">
-            <span class="copy">Copyright &copy; Nenorvalls.no 2022</span>
-          </div>
-        </div>
-      </footer>
+        </nav>
+        </header> 
 
-</body>
+        <hr>
+
+             <!-- ###### HOME ###### -->
+                  <div id="home" class="content-wrapper">
+
+                      <h1>
+                          Hey, there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="gif hey, there" width="30px"/>
+                      </h1>
+
+                      <div class="intro">
+                         <h2>My name is Ettenytten</h2>
+                         <div class="myself">  
+                            <img src="images/ettenytten.jpg" alt="my profile photo" />
+                         </div>
+                         <p>My home is Bergen, Norway.</p>
+                         <p>I'm an aspiring front-end developer student who loves everything about the web.
+                            Enjoying my life with creativity while developing web interfaces.</p>
+                         <p>Feel free to view my projects!</p>
+                      </div> 
+
+                  </div>
+
+                  <!-- ###### ABOUT ###### -->
+                  <div id="about" class="content-wrapper">
+
+                      <h1>About Me</h1>
+                      <p>Currently studying as a fulltime student to be a front-end developer.
+                        I am a Filipina, living in Norway for 7 years.
+                        I have knowledge about Wordpress and Adobe XD.
+                        My interest is to acquire more knowledge about designs, frameworks and languages.
+                        Eager to learn how to code properly.</p>
+                      <p>I am speaking English, Norwegian, Filipino and Romanian.
+                        I'm excited to bring my life experience to the process of building fantastic looking websites.
+                        I'm a life-long learner who's always interested in expanding my skills.</p>
+                      <h2>Goals</h2>
+                      <p>I'd like to work for a web development firm helping clients create an impressive working website.
+                        I want to master the process of building web sites and increase my knowledge, skills and abilities.</p>
+        
+                      <section class="extra">
+                         <h2>Skills</h2>
+                         <div align="center">
+                            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+                            <img src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white">
+                            <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+                            <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+                         </div>
+
+                         <h2 class="title">Tools</h2>
+                         <h3>Photoshop</h3>
+                         <h3>Adobe XD</h3>
+                         <h3>Adobe Illustrator</h3>
+                         <h3>VS Code</h3>
+
+                         <h2 class="title">Knowledge</h2>
+                         <h3>Responsive design</h3>
+                         <h3>Wire Framing</h3>
+                     </section>
+                  </div> 
+  
+                  <!-- ###### PORTFOLIO ###### -->
+                  <div id="portfolio" class="content-wrapper">
+                      <h1>Recent Projects:</h1>
+                      <div class = "project-container">
+                          <figure class="container">
+                             <img src="images/gamehub-screenshot.jpeg" alt="Website image" />
+                             <figcaption>
+                                <h2>GameHub Online Game Store</h2>
+                                 <ul>
+                                    <li>Cross Course Project, Noroff</li>
+                                    <li>Wordpress REST API</li>
+                                 </ul>
+                                 <a href="https://nenorvalls-gamehub-cms-ca.netlify.app/" class="web-link">Netlify</a>
+                                 <a href="https://github.com/NeNorvalls/gamehub-cms-ca.git" class="web-link">Github</a>
+                             </figcaption>
+                          </figure>
+
+                          <figure class="container">
+                              <img src="images/filipino-screenshot.jpeg" alt="Blogsite image" />
+                              <figcaption>
+                                 <h2>Filipinos in the Old and Modern Era</h2>
+                                 <ul>
+                                    <li>Project Exam 1, Noroff</li>
+                                    <li>Wordpress REST API</li>
+                                 </ul>
+                                 <a href="https://nenorvalls-blogsite.netlify.app/" class="web-link">Netlify</a>
+                                 <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-NeNorvalls.git" class="web-link">Github</a>
+                              </figcaption>
+                          </figure>
+
+                          <figure class="container">
+                              <img src="images/csm-screenshot.jpeg" alt="website image" />
+                              <figcaption>
+                                 <h2>Community Science Museum</h2>
+                                    <ul>
+                                       <li>1st Semester Project, Noroff</li>
+                                       <li>HTML & CSS</li>
+                                    </ul>
+                                    <a href="https://nenorvalls-community-science-museum.netlify.app/" class="web-link">Netlify</a>
+                                    <a href="https://github.com/NeNorvalls/NeNorvalls_Community-Science-Museum.git" class="web-link">Github</a>
+                              </figcaption>
+                          </figure>
+                      </div>  
+                  </div>
+   
+                  <!-- ###### CONTACT ###### -->
+
+                  <div id="contact">
+                     <div class="content-wrapper contact-container">
+                        <div class="contact-heading">
+                            <h2 class="contact-h2">Get in Touch</h2>
+                            <p>I know you want to get in touch with me... 
+                               So why not!? Send me a message and I'll be in touch in no time! Any request? 
+                               Say, a website design, a human living suggestion, coding tips... 
+                               Or get to know me? Let's keep it simple. Send me a message :)</p>
+        
+                        </div>
+
+                        <form id="contactForm">
+                            <div class="contact-section" id="successContainer"></div>
+                            <div class="contact-section">
+                                <div class="form-error" id="fullNameError">
+                                   Please enter your full name
+                                </div>
+                                <label class="input-label">
+                                   <span>Full name</span>
+                                </label>
+                                <input class="input" name="fullName" id="fullName" placeholder="Full name">
+                            </div>
+
+                            <div class="contact-section">
+                                <div class="form-error" id="emailError">
+                                   Please enter a valid email address
+                                </div>
+                                <label class="input-label">
+                                   <span>Email address</span>
+                                </label>
+                                <input class="input" name="email" id="email" placeholder="Email address">
+                            </div>
+
+                            <div class="contact-section">
+                                <div class="form-error" id="messageError">
+                                    Your message have to be more than 25 characters
+                                </div>
+                                <label class="input-label">
+                                    <span>Message</span>
+                                </label>
+                                <textarea class="input" id="message" name="message" cols="30" rows="10" placeholder="Message"></textarea>  
+                            </div>
+
+                           <div class="submit-container">
+                               <button class="submit-btn contact-section" id="submitBtn" type="submit">Submit</button>
+                           </div>
+                        </form>
+                     </div>
+                     <button class="arrow-up">
+                        <i class="fa fa-chevron-up"></i>
+                     </button>
+                  </div>
+  
+
+                  <!-- ################### FOOTER #################### -->
+                  <footer>
+                     <div class="footer_container">
+                         <div class="social-media">
+                             <span><a href="http://facebook.com"><i class="fab fa-facebook"></i></a> <a href="http://instagram.com"><i class="fab fa-instagram"></i></a> <a href="http://youtube.com"><i class="fab fa-youtube"></i></a> <a href="http://pinterest.com"><i class="fab fa-pinterest"></i></a> <a href="http://twitter.com/"><i class="fab fa-twitter"></i></a> <a href="http://discord.com"><i class="fab fa-github"></i></a></span>
+                         </div>
+
+                         <div class="copy-container">
+                            <span class="copy">Copyright &copy; Nenorvalls.no 2022</span>
+                         </div>
+                     </div>
+                    </footer>
+
+                   <script src="js/jq-navigation.js"></script>
+                   <script src="js/contact.js"></script>
+    </body>
 </html>
-
-
-
-
-
-
-
-
-<!-- 
-    <nav id="desktop-nav">
-      <ul>
-        <li class="active"><a href="#home" class="page-scroll">Home</a></li>
-        <li><a href="#about" class="page-scroll">About Us</a></li>
-        <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
-        <li><a href="#contact" class="page-scroll">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section id="home"></section>
-  <section id="about"></section>
-  <section id="portfolio"></section>
-  <section id="contact"></section>
-
-  <script src="js/script.js"></script> -->
-    
