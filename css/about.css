@@ -1,0 +1,54 @@
+/* ######## ABOUT ######## */
+.myself {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.myself img {
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 246, 233, 0.644) 0px 25px 20px -20px;
+}
+
+#about-heading {
+    text-align: center;
+}
+
+/* ################## Paragraphs ################### */
+.intro {
+    box-shadow: rgba(251, 238, 228, 0.4) -5px 5px, rgba(251, 238, 228, 0.3) -10px 10px, rgba(251, 238, 228, 0.2) -15px 15px, rgba(251, 238, 228, 0.1) -20px 20px, rgba(251, 238, 228, 0.05) -25px 25px;
+    }
+    
+.intro,
+.intro-about {
+    border: 2px solid rgba(251, 238, 228, 100);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro-about {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+span a {
+    text-decoration: none;
+    color: #1d83ff;
+}
+span a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.extra {
+    color:#fbeee4;
+    border:2px solid #fbeee4;
+    text-align: center;
+}
