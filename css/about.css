@@ -10,7 +10,6 @@
 .myself img {
     width: 320px;
     border-radius: 10px;
-    box-shadow: rgba(255, 246, 233, 0.644) 0px 25px 20px -20px;
 }
 
 #about-heading {
@@ -18,13 +17,15 @@
 }
 
 /* ################## Paragraphs ################### */
-.intro {
-    box-shadow: rgba(251, 238, 228, 0.4) -5px 5px, rgba(251, 238, 228, 0.3) -10px 10px, rgba(251, 238, 228, 0.2) -15px 15px, rgba(251, 238, 228, 0.1) -20px 20px, rgba(251, 238, 228, 0.05) -25px 25px;
+.intro, .myself img {
+    -webkit-box-shadow: -8px 11px 13px -5px rgba(251,238,228,1);
+    -moz-box-shadow: -8px 11px 13px -5px rgba(251,238,228,1);
+    box-shadow: -8px 11px 13px -5px rgba(251,238,228,1);
     }
     
 .intro,
 .intro-about {
-    border: 2px solid rgba(251, 238, 228, 100);
+    /* border: 2px solid rgba(251, 238, 228, 100); */
     margin: 0 auto;
     text-align: center;
 }

@@ -17,7 +17,7 @@ $(document).ready(function(){
 $(window).scroll(function() {    
 	var scroll = $(window).scrollTop();
 
-	if (scroll >= 200) {
+	if (scroll >= 80) {
 		$(".fixed-header").slideDown();
 		$(".fixed-header").style.display = 'block';
 	} else {
