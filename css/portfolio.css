@@ -66,3 +66,13 @@
     margin-top: 6rem;
     text-align: center;
 }
+
+/* buttons */
+.link-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.web-link {
+    display: flex;
+}
