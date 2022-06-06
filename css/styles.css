@@ -36,7 +36,7 @@ body {
 
 .content-wrapper {
     width: 1080px;
-    height: 90vh;
+    min-height: 100vh;
     margin: 0 auto;
     padding: 3.5rem 0 1rem 0;
 }

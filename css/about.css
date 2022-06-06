@@ -18,9 +18,9 @@
 
 /* ################## Paragraphs ################### */
 .intro, .myself img {
-    -webkit-box-shadow: -8px 11px 13px -5px rgba(251,238,228,1);
-    -moz-box-shadow: -8px 11px 13px -5px rgba(251,238,228,1);
-    box-shadow: -8px 11px 13px -5px rgba(251,238,228,1);
+    -webkit-box-shadow: 14px 15px 13px -5px rgba(0,0,0,1);
+    -moz-box-shadow: 14px 15px 13px -5px rgba(0,0,0,1);
+    box-shadow: 14px 15px 13px -5px rgba(0,0,0,1);
     }
     
 .intro,
@@ -51,5 +51,39 @@ p {
 .extra {
     color:#fbeee4;
     border:2px solid #fbeee4;
+    text-align: center;
+}
+
+/* skills */
+.skills-wrapper {
+    width: 100%;
+}
+.skills-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.skills-col {
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.svg-logo {
+    width: 100px;
+    margin: 0 auto;
+    padding: 20px;
+    -webkit-box-shadow: 14px 15px 13px -5px rgba(0,0,0,1);
+    -moz-box-shadow: 14px 15px 13px -5px rgba(0,0,0,1);
+    box-shadow: 14px 15px 13px -5px rgba(0,0,0,1);
+}
+
+#github {
+    background-color: #fff;
+}
+
+#skills-h2 {
     text-align: center;
 }
