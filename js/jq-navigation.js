@@ -24,3 +24,22 @@ $(window).scroll(function() {
 		$(".fixed-header").slideUp();
 	}
 });
+
+$(window).scroll(function() {
+    var windscroll = $(window).scrollTop();
+    if (windscroll >= 80) {
+        $('section').each(function(i) {
+    // The number at the end of the next line is how pany pixels you from the top you want it to activate.
+            if ($(this).position().top <= windscroll - 0) {
+                $('nav ul li a.active').removeClass('active');
+                $('nav ul li a').eq(i).addClass('active');
+            }
+        });
+
+    } else {
+
+        $('nav ul li a.active').removeClass('active');
+        $('nav ul li a:first').addClass('active');
+    }
+
+    }).scroll();

@@ -6,7 +6,9 @@ input {
     transition: 0.15s;
     padding: 8px;
   }
-  
+input::placeholder, textarea::placeholder {
+  font-family: 'Montserrat', sans-serif;
+}
   input:focus {
     width: 200px;
     background-color: #ffe1e0;
@@ -31,6 +33,10 @@ input {
     max-height: 300px;
     border-radius: 3px;
   }
+
+  textarea::placeholder {
+    padding-left: 7px;
+  }
   
   .form-error {
     display: none;
@@ -50,7 +56,6 @@ input {
   }
   
   .contact-h2 {
-    font-family: "Noto", serif;
     text-align: center;
     margin-top: 5rem;
   }
@@ -101,6 +106,10 @@ input {
     background-color: #1d83ff;
     color: #fff;
     border: 2px solid white;
+  }
+
+  .contact-text {
+    max-width: 1080px;
   }
   
   /* ################### RESPONSIVENESS FOR SCREENS SMALLER THAN 768px #################### */

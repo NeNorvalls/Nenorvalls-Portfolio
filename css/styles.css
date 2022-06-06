@@ -19,6 +19,19 @@ body {
     padding: 0;
 }
 
+#home {
+    padding-top: 7rem;
+}
+#about {
+    padding-top: 5rem;
+}
+#portfolio {
+    padding-top: 8rem;
+}
+#contact {
+    padding-top: 9.5rem;
+}
+
 /*######## BODY/MAIN ########*/
 .row {
     display: flex;
@@ -35,10 +48,10 @@ body {
 }
 
 .content-wrapper {
-    width: 1080px;
+    max-width: 1080px;
     min-height: 100vh;
     margin: 0 auto;
-    padding: 3.5rem 0 1rem 0;
+    padding: 0 0 1rem 0;
 }
 
 h1 {
@@ -75,6 +88,8 @@ footer {
 
 .social-media {
 text-align: center;
+color: #1d83ff;
+font-size: 28px;
 }
 
 .copy {
@@ -82,7 +97,7 @@ text-align: center;
 }
 
 .social-media i {
-    margin-bottom: 20px;
+    margin: 0 10px 20px 10px;
 }
 
 .social-media,

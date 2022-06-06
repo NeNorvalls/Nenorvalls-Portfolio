@@ -18,7 +18,7 @@
                 <span class="logo">NeNorvalls</span>
                     <ul class="nav-menu">
                        <li class="nav-item">
-                           <a href="#home" class="active nav-link">Home</a>
+                           <a href="#home" class="nav-link">Home</a>
                        </li>
                        <li class="nav-item">
                            <a href="#about" class="nav-link">About me</a>
@@ -47,7 +47,7 @@
         <!-- <img  class="logo" src="/images/Personal-Logo.png" alt="Profile Logo" /> -->
           <ul class="nav-menu">
             <li class="nav-item">
-              <a href="#home" class="active nav-link">Home</a>
+              <a href="#home" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
               <a href="#about" class="nav-link">About me</a>
@@ -59,10 +59,10 @@
               <a href="#contact" class="nav-link">Contact</a>
             </li>
           </ul>
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+          <div class="fixed-hamburger">
+            <span class="fixed-bar"></span>
+            <span class="fixed-bar"></span>
+            <span class="fixed-bar"></span>
           </div>
         </nav>
         </header> 
@@ -70,8 +70,7 @@
         <hr>
 
              <!-- ###### HOME ###### -->
-                  <div id="home" class="content-wrapper">
-
+                  <section id="home" class="content-wrapper">
                       <h1 id="top-heading">
                           Hey, there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="gif hey, there" width="30px"/>
                       </h1>
@@ -94,10 +93,10 @@
                          
                       </div> 
 
-                  </div>
+                    </section>
 
                   <!-- ###### ABOUT ###### -->
-                  <div id="about" class="content-wrapper">
+                  <section id="about" class="content-wrapper">
                     <div class="row">
                       <div class="column">
                         <h2>About Me</h2>
@@ -141,25 +140,25 @@
                         </div>
                       </div>
                     </section>                
-                  </div> 
+                  </section> 
 
                   <!-- ###### PORTFOLIO ###### -->
-                  <div id="portfolio" class="content-wrapper">
+                  <section id="portfolio" class="content-wrapper">
                       <h2 class="portfolio-h2">Recent Projects:</h2>
                       <div class = "project-container">
                           <figure class="container">
-                             <img src="images/gamehub-screenshot.jpeg" alt="Website image" />
-                                <h3>GameHub Online Game Store</h3>
-                                 <ul>
-                                    <li>Cross Course Project, Noroff</li>
-                                    <li>Wordpress REST API</li>
-                                 </ul>
-                                 <div class="link-wrapper">
-                                  <a href="https://nenorvalls-gamehub-cms-ca.netlify.app/" class="web-link">Netlify</a>
-                                 </div>
-                                 <div class="link-wrapper">
-                                  <a href="https://github.com/NeNorvalls/gamehub-cms-ca.git" class="web-link">Github</a>
-                                 </div>
+                            <img src="images/gamehub-screenshot.jpeg" alt="Website image" />
+                            <figcaption>
+                              <h3>GameHub Online Game Store</h3>
+                               <ul>
+                                  <li>Cross Course Project, Noroff</li>
+                                  <li>Wordpress REST API</li>
+                               </ul>
+                               <div class="link-wrapper">
+                                <a href="https://nenorvalls-gamehub-cms-ca.netlify.app/" class="web-link">Netlify</a>
+                                <a href="https://github.com/NeNorvalls/gamehub-cms-ca.git" class="web-link">Github</a>
+                               </div>
+                            </figcaption>
                           </figure>
 
                           <figure class="container">
@@ -170,8 +169,10 @@
                                     <li>Project Exam 1, Noroff</li>
                                     <li>Wordpress REST API</li>
                                  </ul>
-                                 <a href="https://nenorvalls-blogsite.netlify.app/" class="web-link">Netlify</a>
-                                 <a href="https://github.com/NeNorvalls/Filipinos-in-the-Old-and-Modern-Era.git" class="web-link">Github</a>
+                                 <div class="link-wrapper">
+                                  <a href="https://nenorvalls-blogsite.netlify.app/" class="web-link">Netlify</a>
+                                  <a href="https://github.com/NeNorvalls/Filipinos-in-the-Old-and-Modern-Era.git" class="web-link">Github</a>
+                                 </div>    
                               </figcaption>
                           </figure>
 
@@ -183,20 +184,22 @@
                                        <li>1st Semester Project, Noroff</li>
                                        <li>HTML & CSS</li>
                                     </ul>
-                                    <a href="https://nenorvalls-community-science-museum.netlify.app/" class="web-link">Netlify</a>
-                                    <a href="https://github.com/NeNorvalls/NeNorvalls_Community-Science-Museum.git" class="web-link">Github</a>
+                                    <div class="link-wrapper">
+                                      <a href="https://nenorvalls-community-science-museum.netlify.app/" class="web-link">Netlify</a>
+                                      <a href="https://github.com/NeNorvalls/NeNorvalls_Community-Science-Museum.git" class="web-link">Github</a>
+                                    </div>
                               </figcaption>
                           </figure>
                       </div>  
-                  </div>
+                    </section>
    
                   <!-- ###### CONTACT ###### -->
 
-                  <div id="contact">
+                  <section id="contact">
                      <div class="content-wrapper contact-container">
                         <div class="contact-heading">
-                            <h3 class="contact-h3">Get in Touch</h3>
-                            <p>I know you want to get in touch with me... 
+                            <h2 class="contact-h2">Get in Touch</h2>
+                            <p class="contact-text">I know you want to get in touch with me... 
                                So why not? Send me a message and I'll be in touch in no time! Any request? 
                                Say, a website design, a human living suggestion, coding tips... 
                                Or get to know me? Let's keep it simple. Send me a message :)</p>
@@ -241,7 +244,7 @@
                         </form>
                      </div>
           
-                  </div>
+                    </section>
   
 
                   <!-- ################### FOOTER #################### -->
@@ -259,5 +262,7 @@
 
                    <script src="js/jq-navigation.js"></script>
                    <script src="js/contact.js"></script>
+                   <script src="/js/active-nav.js"></script>
+                   <script src="/js/hamburger.js"></script>
     </body>
 </html>

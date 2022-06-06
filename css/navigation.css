@@ -13,12 +13,13 @@
     gap: 60px;
   }
   
-  .nav-link {
+  .nav-link, .fixed-nav-link {
     transition: 0.7s ease;
   }
   
   .active,
-  .nav-link:hover {
+  .nav-link:hover,
+  .fixed-nav-link {
     color: #fbeee4;
     text-decoration: underline;
   }
@@ -27,7 +28,8 @@
     font-weight: bold;
   }
   
-  .logo {
+  .logo,
+  .fixed-logo {
     color: #fbfbfb;
     letter-spacing: 2px;
     font-weight: 400;
@@ -70,12 +72,12 @@
   
     /*######## HAMBURGER ########*/
   
-  .hamburger {
+  .hamburger, .fixed-hamburger {
     display: none;
     cursor: pointer;
   }
     
-  .bar {
+  .bar, .fixed-bar {
     display: block;
     width: 25px;
     height: 3px;
@@ -83,3 +85,55 @@
     transition: all 0.3s ease-in-out;
     background-color: #fbeee4;
   }
+
+
+
+  /* ################### RESPONSIVENESS FOR SCREENS SMALLER THAN 768px #################### */
+@media screen and (max-width: 800px) {
+  /* HAMBURGER RESPONSIVENESS */
+  .hamburger, .fixed-hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2),
+  .fixed-hamburger.active .fixed-bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1),
+  .fixed-hamburger.active .fixed-bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3),
+  .fixed-hamburger.active .fixed-bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  /* .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #1e005c;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  } */
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+  /* make the navbar fixed as an alternative to the top-btn */
+  .navbar {
+    width: 100%;
+    background: #1e005c;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+}

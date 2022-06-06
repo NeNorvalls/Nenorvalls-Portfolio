@@ -70,9 +70,18 @@
 /* buttons */
 .link-wrapper {
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
 }
 .web-link {
     display: flex;
+    padding: 8px 16px;
+    color: #1d83ff;
+    margin-top: 1.2rem;
+    text-decoration: none;
+    -webkit-box-shadow: 14px 15px 13px -5px rgba(0,0,0,1);
+    -moz-box-shadow: 14px 15px 13px -5px rgba(0,0,0,1);
+    box-shadow: 14px 15px 13px -5px rgba(0,0,0,1);
 }
