@@ -13,13 +13,11 @@
     margin: 10px;
     margin-top: 2rem;
     min-width: 230px;
-    max-width: 315px;
     width: 100%;
     color: #fbeee4;
     text-align: left;
     line-height: 1.4em;
     background-color: #181a18;
-    height: 380px;
     border-radius: 5px;
     -webkit-box-shadow: 14px 15px 13px -5px rgba(0,0,0,1);
     -moz-box-shadow: 14px 15px 13px -5px rgba(0,0,0,1);
@@ -81,7 +79,35 @@
     color: #1d83ff;
     margin-top: 1.2rem;
     text-decoration: none;
+    font-weight: bold;
     -webkit-box-shadow: 14px 15px 13px -5px rgba(0,0,0,1);
     -moz-box-shadow: 14px 15px 13px -5px rgba(0,0,0,1);
     box-shadow: 14px 15px 13px -5px rgba(0,0,0,1);
 }
+.web-link:hover {
+    -webkit-box-shadow: 7px 8px 13px -3px rgb(228, 228, 228);
+    -moz-box-shadow: 7px 8px 13px -3px rgb(229, 229, 229);
+    box-shadow: 7px 8px 13px -3px rgb(228, 228, 228);
+}
+
+.desc-container {
+    max-height: 50px;
+    margin-bottom: 30px;
+}
+
+.desc-container p {
+    font-size: 14px;
+}
+
+.bullet-container {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .project-container {
+        flex-direction: column;
+        max-width: 80%;
+        margin: 0 auto;
+        height: auto;
+    }
+    }

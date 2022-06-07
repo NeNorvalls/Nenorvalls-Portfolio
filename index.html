@@ -42,21 +42,21 @@
             <!-- FIXED HEADER -->
         <header class="fixed-header">
         <!-- ################### HAMBURGER MENU #################### -->
-        <nav class="navbar">
+        <nav class="fixed-navbar">
         <span class="logo">NeNorvalls</span>
         <!-- <img  class="logo" src="/images/Personal-Logo.png" alt="Profile Logo" /> -->
-          <ul class="nav-menu">
-            <li class="nav-item">
-              <a href="#home" class="nav-link">Home</a>
+          <ul class="fixed-nav-menu">
+            <li class="fixed-nav-item">
+              <a href="#home" class="fixed-nav-link">Home</a>
             </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link">About me</a>
+            <li class="fixed-nav-item">
+              <a href="#about" class="fixed-nav-link">About me</a>
             </li>
-            <li class="nav-item">
-              <a href="#portfolio" class="nav-link">Portfolio</a>
+            <li class="fixed-nav-item">
+              <a href="#portfolio" class="fixed-nav-link">Portfolio</a>
             </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
+            <li class="fixed-nav-item">
+              <a href="#contact" class="fixed-nav-link">Contact</a>
             </li>
           </ul>
           <div class="fixed-hamburger">
@@ -67,7 +67,7 @@
         </nav>
         </header> 
 
-        <hr>
+        <!-- <hr> -->
 
              <!-- ###### HOME ###### -->
                   <section id="home" class="content-wrapper">
@@ -78,7 +78,7 @@
                       <div class="intro">
                         <h2 id="about-heading">My name is Nenita Norvalls</h2>
                         <div class="row">
-                          <div class="column">
+                          <div class="column intro-column">
                             <div class="myself">  
                               <img src="images/ettenytten.jpg" alt="my profile photo" />
                            </div>
@@ -149,8 +149,12 @@
                           <figure class="container">
                             <img src="images/gamehub-screenshot.jpeg" alt="Website image" />
                             <figcaption>
-                              <h3>GameHub Online Game Store</h3>
-                               <ul>
+                              <h3>GameHub Online Store</h3>
+                              <div class="desc-container">
+                                <p>This website aims to create an excellent online store for games.</p>
+                              </div>
+                              
+                               <ul class="bullet-container">
                                   <li>Cross Course Project, Noroff</li>
                                   <li>Wordpress REST API</li>
                                </ul>
@@ -164,8 +168,11 @@
                           <figure class="container">
                               <img src="images/filipino-screenshot.jpeg" alt="Blogsite image" />
                               <figcaption>
-                                 <h3>Filipinos in the Old and Modern Era</h3>
-                                 <ul>
+                                 <h3>Blog Site</h3>
+                                 <div class="desc-container">
+                                  <p> The Blogsite aims to apply the skills we learned over first year of studies. </p>
+                                 </div>
+                                 <ul class="bullet-container">
                                     <li>Project Exam 1, Noroff</li>
                                     <li>Wordpress REST API</li>
                                  </ul>
@@ -180,7 +187,10 @@
                               <img src="images/csm-screenshot.jpeg" alt="website image" />
                               <figcaption>
                                  <h3>Community Science Museum</h3>
-                                    <ul>
+                                 <div class="desc-container">
+                                  <p>This website main goal is to put what we learn about HTML and CSS.</p>
+                                 </div>                    
+                                    <ul class="bullet-container">
                                        <li>1st Semester Project, Noroff</li>
                                        <li>HTML & CSS</li>
                                     </ul>
@@ -264,5 +274,6 @@
                    <script src="js/contact.js"></script>
                    <script src="/js/active-nav.js"></script>
                    <script src="/js/hamburger.js"></script>
+                   <script src="/js/fixed-hamburger.js"></script>
     </body>
 </html>

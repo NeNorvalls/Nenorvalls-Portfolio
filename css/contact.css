@@ -1,4 +1,13 @@
 /* ################### CONTACT #################### */
+.contact-heading {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact-text {
+  margin: 30px 15px 30px 15px;
+}
+
 
 input {
     display: inline-block;

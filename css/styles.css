@@ -44,7 +44,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 50%;
-
 }
 
 .content-wrapper {
@@ -104,3 +103,23 @@ font-size: 28px;
 .copy-container {
     text-align: center;
 } 
+
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .column {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .intro-column {
+        display: block!important;
+    }
+    .myself {
+        float: left;
+    }
+    #top-heading, #about-heading  {
+        text-align: left;
+        margin-left: 10%;
+    }
+}
