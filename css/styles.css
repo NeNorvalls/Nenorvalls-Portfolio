@@ -53,6 +53,10 @@ body {
     padding: 0 0 1rem 0;
 }
 
+.logo-link {
+    text-decoration: none;
+}
+
 h1 {
     font-size: 46px;
     font-weight: 500;
