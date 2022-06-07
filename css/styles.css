@@ -62,6 +62,7 @@ h1 {
 
  p {
     font-size: 18px;
+    line-height: 1.5;
     text-align: left;
     color:#fbeee4;
 }
@@ -121,5 +122,31 @@ font-size: 28px;
     #top-heading, #about-heading  {
         text-align: left;
         margin-left: 10%;
+        margin-right: 10%;
+    }
+    #top-heading {
+        font-size: 30px;
+    }
+    #about-heading {
+        font-size: 18px;
+    }
+    .logo {
+        font-size: 30px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .social-media {
+        font-size: 18px;
+    }
+    .copy {
+        font-size: 14px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .project-container {
+        max-width: 100%;
+    }
+}
+

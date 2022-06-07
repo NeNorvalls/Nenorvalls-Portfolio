@@ -19,7 +19,7 @@ $(window).scroll(function() {
 
 	if (scroll >= 80) {
 		$(".fixed-header").slideDown();
-		$(".fixed-header").style.display = 'block';
+		$(".fixed-header").css("display", "block");
 	} else {
 		$(".fixed-header").slideUp();
 	}

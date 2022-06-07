@@ -13,7 +13,6 @@
     margin: 10px;
     margin-top: 2rem;
     min-width: 230px;
-    width: 100%;
     color: #fbeee4;
     text-align: left;
     line-height: 1.4em;
@@ -110,4 +109,10 @@
         margin: 0 auto;
         height: auto;
     }
+    .desc-container {
+        margin-bottom: 40px;
     }
+    .bullet-container {
+        float: left;
+    }
+}
