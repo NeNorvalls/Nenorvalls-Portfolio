@@ -20,7 +20,7 @@ input::placeholder, textarea::placeholder {
 }
   input:focus {
     width: 200px;
-    background-color: #ffe1e0;
+    background-color: #fbeee4;
   }
   
   .input-label {
@@ -31,7 +31,7 @@ input::placeholder, textarea::placeholder {
     z-index: 1;
     cursor: text;
     pointer-events: none;
-    color: #fff;
+    color: #fbeee4;
     line-height: 17px;
   }
   
@@ -60,7 +60,6 @@ input::placeholder, textarea::placeholder {
   .success {
     color: #2eeb93;
     padding: 10px;
-    background-color: #034426;
     border: 0.3px solid #2eeb93;
   }
   
@@ -70,7 +69,7 @@ input::placeholder, textarea::placeholder {
   }
   
   #contactForm {
-    color: #fff;
+    color: #fbeee4;
     background-color: #181a18;
     padding-top: 2rem;
     max-width: 550px;
@@ -89,7 +88,7 @@ input::placeholder, textarea::placeholder {
     box-sizing: border-box;
     resize: none;
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #fbeee4;
   }
   
   .submit-btn {
@@ -97,7 +96,7 @@ input::placeholder, textarea::placeholder {
     margin-top: 28px;
     margin-bottom: 28px;
     max-width: 200px;
-    background: #fff;
+    background: #fbeee4;
     color: #181a18;
     font-size: 1rem;
     cursor: pointer;
@@ -113,8 +112,8 @@ input::placeholder, textarea::placeholder {
   
   .submit-btn:hover {
     background-color: #1d83ff;
-    color: #fff;
-    border: 2px solid white;
+    color: #fbeee4;
+    border: 2px solid #fbeee4;
   }
 
   .contact-text {

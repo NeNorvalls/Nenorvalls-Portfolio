@@ -23,12 +23,6 @@ function validateForm(event) {
     emailError.style.display = "block";
   }
 
-  if (checkLength(subject.value, 10) === true) {
-    subjectError.style.display = "none";
-  } else {
-    subjectError.style.display = "block";
-  }
-
   if (checkLength(message.value, 25) === true) {
     messageError.style.display = "none";
   } else {
@@ -44,7 +38,7 @@ contactForm.addEventListener("submit", validateForm);
 
 contactForm.addEventListener("submit", function handleSubmit(event) {
   event.preventDefault();
-  if(checkLength(fullName.value, 5) && validateEmail(email.value) && checkLength(subject.value, 10) && checkLength(message.value, 25)) {
+  if(checkLength(fullName.value, 5) && validateEmail(email.value) && checkLength(message.value, 25)) {
 
     contactForm.reset();
     successContainer.innerHTML = `<p class="success">Your message has been sent. Thank you for reaching out!</p>`
