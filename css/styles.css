@@ -11,12 +11,22 @@ html {
 scroll-behavior: smooth;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Meera Inimai', sans-serif;
     background-color: #181a18;
     color: #fbeee4;
     background-size: cover;
     margin: 0;
     padding: 0;
+}
+
+#top-heading {
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#home-column-text {
+    font-family: 'Meera Inimai', sans-serif;
 }
 
 #home {
