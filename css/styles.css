@@ -19,6 +19,10 @@ body {
     padding: 0;
 }
 
+#waving {
+    width: 30px;
+}
+
 #top-heading {
     font-family: 'Vollkorn', serif;
     font-style: italic;
